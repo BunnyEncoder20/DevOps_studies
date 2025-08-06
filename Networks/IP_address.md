@@ -13,7 +13,7 @@ ifconfig # for macOS, Linux: Look for en0 -> inet
     - If subnet mask octet == 255: then that octet will remain the same
     - If the subnet mask octet == 0: then that octet can be anything (between 0-255)
 - NOTE: The unchanging part of the IP address (usually the first three octets) is call teh network portion and the last ctet is called the Host portions.
-![network and host portion](assets/1.png)
+![network and host portion](../assets/1.png)
 
 ## Miss Default Gateway
 - Whenever a device is trying to connect to a device not on the same network, example: you connecting to youtube or netflix, the device will take help from Miss default gateway.
