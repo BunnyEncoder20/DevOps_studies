@@ -1,5 +1,7 @@
 # Subnetting and CIDR Notation
 
+- Based on number of subnets required.
+
 ## Finding how many bits to flip for no. of subnets
 - Remember the following table:
 ```bash
