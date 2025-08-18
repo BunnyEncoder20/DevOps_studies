@@ -51,7 +51,7 @@
 
 ## Creating our sub networks
 
-- Cause me now know what our increment is, we can now define the subnet ip addresses ranges:
+- Cause we now know what our increment is, we can now define the subnet ip addresses ranges:
 ```bash
 192.168.1.0 - 192.168.1.63
 192.168.1.64 - 192.168.1.127
@@ -69,4 +69,27 @@
 192.168.1.64/26
 192.168.1.128/26
 192.168.1.192/26
+```
+
+## Finding how many bits to flip for no. of Hosts
+- If we know how many hosts we want, instead of the number of subnets required (usually a real world scenario) we just to need to change the 3rd step:
+- Instead of "hacking" the bits (from left to right) we "save" them from right to left
+- Eg:
+    - if we need lets say 40 hosts per subnet, we would need 6 bits.
+    - Now instead of flipping 6 bits from left to right, we save (don't change the 0) 6 bits (0) from right to left
+- The increment and finding the subnets ranges remains the same.
+- Eg:
+```bash
+NEED: 40 hosts per subnet
+base network IP: 10.1.1.0/24
+bits needed for 40: 6 bits
+saved bits from right: 6 bits
+default subnet mask: 11111111.11111111.11111111.00000000
+required subnet mask: 11111111.11111111.11111111.11000000
+required subnet mask: 255.255.255.192
+increment: 64 (last 1 is on 64s bit)
+subnet ip-ranges:
+10.1.1.0/26 - 10.1.1.63/26
+10.1.1.64/26 - 10.1.1.127/26
+10.1.1.128/26 - 10.1.1.191/26
 ```
