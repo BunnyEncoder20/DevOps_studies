@@ -131,3 +131,4 @@
 ![](../assets/idealTenancySetup.png)
 4. OCI Admins Policies
 ![](../assets/OCIAdminPolicies.png)
+The above is the least amount of policies for normal admin functions
