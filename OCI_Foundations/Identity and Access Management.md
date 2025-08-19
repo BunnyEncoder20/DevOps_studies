@@ -105,3 +105,29 @@
 ![](../assets/AuthZpoliciesSyntax.png)
 
 ---
+
+## Demo: AuthN & AuthZ
+
+### Creating a User:
+1. Do to Identity Domain of choice
+2. Under Users Tab, Click on Create User
+    1. Now just signin in as the new user (after activation), we will be able to log into the domain, but we cannot do anything as we do not have any autherization.
+![](../assets/createUser.png)
+3. Policies are not defined for an individual user, but for group level. Now in the Group tab, we will create a new group
+![](../assets/createGroup.png)
+4. Once the user account has be activated, we can add them to the group
+5. At the Domain level we can make policies from the policies tab:
+![](../assets/createPolicies.png)
+6. Fill the Policies with necessary group and permissions
+![](../assets/fillPolicyForm.png)
+
+---
+
+## Tenancy Setup
+
+### Ideal Tenancy Setup includes:
+    1. Don't usse root tenancy Admin for day-to-day tasks, always make a OCI Admin group and give them admin policies/permissions and their own compartment.
+    2. Use MFA
+![](../assets/idealTenancySetup.png)
+4. OCI Admins Policies
+![](../assets/OCIAdminPolicies.png)
