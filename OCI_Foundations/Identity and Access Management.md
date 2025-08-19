@@ -39,7 +39,20 @@
 
 ## Compartments
 
-- With our Oracle tenancy (account), we also get a Compartment. Think of it as a logical construct which houses alll of our related resources.
-- We Create them for Isolate and control access.
+- With our Oracle tenancy (account), we also get a Compartment. Think of it as a logical construct which houses all of our related resources.
 - Though the Root compartment can house ALL resources, it is best practice to make dedicated compartments for each isolated resources.
-![]()
+
+- We Create them for Isolate and control access.
+    - Each resources we create belongs to a single compartment
+    - The resources can be moved from one compartment to another
+    - The rources of different comapartments can communicate with each other
+![](../assets/compartments.png)
+
+- The Main point of compartment can be summurized in below image:
+![](../assets/egcompartmentAccess.png)
+
+- Compartments can be multi-regional and Nested also
+![](../assets/multiregionCompartment.png)
+
+- We can set Qoutas and Budgets on Compartments
+![](../assets/qoutas&budgets.png)
