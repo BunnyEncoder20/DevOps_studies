@@ -51,8 +51,31 @@
 - The Main point of compartment can be summurized in below image:
 ![](../assets/egcompartmentAccess.png)
 
-- Compartments can be multi-regional and Nested also
+- Compartments can be multi-regional and Nested (6 levels deep) also
 ![](../assets/multiregionCompartment.png)
 
 - We can set Qoutas and Budgets on Compartments
 ![](../assets/qoutas&budgets.png)
+
+---
+
+## Demo: Create a Compartment and Identity Domain
+![](../assets/compartment&IdentityDomain.jpeg)
+
+1. Go to compartments dashboard:
+![](../assets/go2compartments.png)
+
+2. Create the Compartment:
+![](../assets/createCompartment.png)
+![](../assets/compartmentMade.png)
+
+3. Can check all our recourses in Tenancy Explorer
+![](../assets/tenancyExplorer.png)
+
+4. Go to Identity Domain Page
+![](../assets/go2domains.png)
+
+5. Creat Domain:
+![](../assets/createDomainBtn.png)
+![](../assets/fillDetails.png)
+![](../assets/clickCreateDomain.png)
