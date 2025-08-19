@@ -79,3 +79,29 @@
 ![](../assets/createDomainBtn.png)
 ![](../assets/fillDetails.png)
 ![](../assets/clickCreateDomain.png)
+
+---
+
+## AuthN & AuthZ
+
+### Principals
+
+- IAM entities that are allowed to interact with OCI resources
+- There are two kinds of principals:
+    1. IAM users (people logging to console, using recources, etc)
+    2. Resources Principals (instance principals that can make API calls)
+    3. Groups - Collection of Users who have same type of access to resources
+
+### AuthN
+- Authentication - Who are you? Are you who you say you are ?
+- Eg:
+    - when we visit a website and it asks username and password, we are being authenticated
+    - In cloud resources we usually use API signing keys (OCI API + SDK/CLI or RSA key pair (PEM))
+    - Auth Tokens (Oracle generated token strings or Authenticate third party APIs)
+
+### AuthZ
+- Autherization - What permissions you have? What are you allowed to do?
+- These are given through policies. These can be attached to tenancies or compartments
+![](../assets/AuthZpoliciesSyntax.png)
+
+---
