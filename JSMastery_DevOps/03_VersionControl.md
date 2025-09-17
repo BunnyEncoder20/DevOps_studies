@@ -24,3 +24,19 @@ git log # exit by pressing 'q'
 git checkout <commit hash>
 ```
 - Also it is always important to make a **.gitignore** file
+
+## Setting up Gitlab's CICD Pipelines
+- [GitLabs Docs](https://docs.gitlab.com/runner/install/?utm_source=chatgpt.com)
+- Videos in order (atq chatGPT):
+
+1. [How to install & configure a GitLab Runner](https://www.youtube.com/watch?v=3uh1Zh6Kc_g) (self-hosted). Great for getting started.
+2. [More detailed, walk-through including pipeline use](https://www.youtube.com/watch?v=HqaXHsSHMjk), good for practical infra setup.
+3. [Focuses on runner setup on your own machine
+](https://www.youtube.com/watch?v=G8ZONHOTAQk), helpful to understand runners’ executors etc.
+4. [Demonstrates setting up CI/CD infrastructure
+](https://www.youtube.com/watch?v=aXJ4hnCJc1U). Including on-prem GitLab / Jenkins etc; useful to see what’s involved
+5. [GitLab CI Pipeline Setup](https://www.youtube.com/watch?v=z7nLsJvEyMY) - 20 min video
+
+### GitLab Runner
+
+-
