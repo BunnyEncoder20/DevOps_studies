@@ -39,4 +39,11 @@ git checkout <commit hash>
 
 ### GitLab Runner
 
--
+- Formally know as GitLab Worker (till 2015) is an app used to execute jobs in pipelines.
+- It's an engine which processes your pipeline instructions
+- They are lightweight, versatile and can be deployed in various environments.
+- They are the backbone of CICD workflows
+- There are main 3 types of runners:
+    - INSTANCE RUNNERS (avaiable to all projects within a GitLab instance)
+    - GROUP RUNNERS (specific to a group of projects)
+    - PROJECT RUNNERS (for only a specific project)
