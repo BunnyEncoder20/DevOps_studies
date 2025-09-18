@@ -43,3 +43,9 @@
 - DevOps Engg should be fimiliar with bash or shell scripting and also a programming langguage like Pyhton or Js.
 - Cause Automation is at the heart of DevOps work
 - Eg: when onboarding a new developer, to grant him the access and git permissions, we don't click through several dashboards, we just run a script for this user for this role.
+
+
+
+# GitLab CICD
+
+- Crash Course: [video](https://youtu.be/qP8kir2GUgo?si=C7updoMq1ktgeWGa)
