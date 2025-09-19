@@ -3,3 +3,6 @@
 
 # Ignore Python bytecode
 __pycache__/
+
+# Ignore Obsidian files
+.obsidian
