@@ -6,3 +6,7 @@ __pycache__/
 
 # Ignore Obsidian files
 .obsidian
+~.bashrc
+.obsidian/community-plugins.json
+.obsidian/workspace.json
+.obsidian/app.json
